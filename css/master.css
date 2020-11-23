@@ -915,3 +915,11 @@ background: linear-gradient(#ed1e79 , #53277e) !important;
     border-radius: 3px;
     
 }
+#filter li.active {
+    background-color: var(--theme-color1);
+    color: #fff;
+    border-radius: 40px;
+}
+#filter li.active a{
+    color: #fff;
+}

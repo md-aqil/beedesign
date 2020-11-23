@@ -271,7 +271,9 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
 var galleryTop = new Swiper('.swiper-container.testimonial', {
   slidesPerView: 1,
 	speed: 400,
-	spaceBetween: 50,
+  spaceBetween: 50,
+  grabCursor: false,
+  allowTouchMove:false,
 	autoplay: {
 	  delay: 5000,
 	  disableOnInteraction: false,

@@ -87,4 +87,15 @@
         top: inherit;
         padding-top: 6px;
     }
+   .nav-absolute #navbarNav {
+       background: var(--theme-color);
+   }
+   .navbar-light .navbar-toggler {
+    background: var(--theme-color1);
+    border: none;
+}
+
+.user-saying .testimonial>.swiper-pagination-bullets {
+    display: none;
+}
 }
